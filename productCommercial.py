@@ -1,0 +1,10 @@
+print("Hello! I am going to ask you questions about your device to create a commercial.")
+yourObject = input("What is your object? ")
+yourData = input("What data does it take? ")
+how = input("How will you record the "+yourData+" from your "+yourObject+"?")
+where = input("Where will the "+how+" be located? ")
+cost = input("How expensive will your "+yourObject+" be in dollars? ")
+
+print("Coming soon! For the low price of "+cost+" dollars, ",end="")
+print("this new "+yourObject+" will easily record "+yourData+". It is easy to control from "+how+" located ",end="")
+print("on "+where+".")
